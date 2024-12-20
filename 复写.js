@@ -56,7 +56,7 @@ function overwriteRules (params) {
     ];
 
     const ipRules = [
-        "RULE-SET,reject_ip,REJECT",
+        // "RULE-SET,reject_ip,REJECT",
         "RULE-SET,telegram_ip,✈️ 电报信息",
         "RULE-SET,stream_ip,US - 自动选择",
         "RULE-SET,lan_ip,DIRECT",
