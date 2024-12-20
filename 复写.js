@@ -233,6 +233,16 @@ function overwriteRules (params) {
             format: "text",
             proxy: "🎯 节点选择"
         },
+        // google
+        google_non_ip: {
+            type: "http",
+            behavior: "classical",
+            url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs",
+            path: "./rule_set/sukkaw_ruleset/google_non_ip.txt",
+            interval: 43200,
+            format: "text",
+            proxy: "🎯 节点选择"
+        },
         // 软件更新、操作系统等大文件下载
         download_domainset: {
             type: "http",
@@ -490,6 +500,13 @@ function overwriteProxyGroups (params) {
             proxies: ["DIRECT", "🎯 节点选择", "HK - 自动选择", "JP - 自动选择", "KR - 自动选择", "SG - 自动选择", "US - 自动选择", "UK - 自动选择", "FR - 自动选择", "DE - 自动选择", "TW - 自动选择", "其它 - 自动选择"],
             // "include-all": true,
             icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png"
+        },
+        {
+            name: "Google服务",
+            type: "select",
+            proxies: ["DIRECT", "🎯 节点选择", "HK - 自动选择", "JP - 自动选择", "KR - 自动选择", "SG - 自动选择", "US - 自动选择", "UK - 自动选择", "FR - 自动选择", "DE - 自动选择", "TW - 自动选择", "其它 - 自动选择"],
+            // "include-all": true,
+            icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"
         },
     ];
 
