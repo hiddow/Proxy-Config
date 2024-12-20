@@ -25,6 +25,9 @@ function overwriteRules (params) {
     const customRules = [
         // 在此添加自定义规则，优先级次于ad。例子：
         // "DOMAIN,baidu.com,DIRECT",
+        "DOMAIN-KEYWORD,copilot,🤖 AIGC",
+        "DOMAIN,aida.googleapis.com,🤖 AIGC",
+        "DOMAIN-SUFFIX,notebooklm.google,🤖 AIGC",
       ];
 
     const nonipRules = [
