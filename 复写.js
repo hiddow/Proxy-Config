@@ -42,6 +42,7 @@ function overwriteRules (params) {
         "RULE-SET,apple_cn_non_ip,DIRECT",
         "RULE-SET,apple_services,🍎 苹果服务",
         "RULE-SET,microsoft_non_ip,Ⓜ️ 微软服务",
+        "RULE-SET,google_non_ip,Google服务",
         "RULE-SET,ai_non_ip,🤖 AIGC",
         "RULE-SET,global_non_ip,🎯 节点选择",
         "RULE-SET,domestic_non_ip,DIRECT",
