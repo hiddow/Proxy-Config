@@ -172,7 +172,7 @@ function overwriteRules (params) {
         github_non_ip: {
             type: "http",
             behavior: "classical",
-            url: "https://ruleset.skk.moe/Clash/non_ip/github.txt",
+            url: "https://raw.githubusercontent.com/hiddow/Proxy-Config/main/rules/github.txt",
             path: "./rule_set/sukkaw_ruleset/github_non_ip.txt",
             interval: 43200,
             format: "text",
