@@ -44,6 +44,7 @@ function overwriteRules (params) {
         "RULE-SET,microsoft_non_ip,Ⓜ️ 微软服务",
         "RULE-SET,google_non_ip,Google服务",
         "RULE-SET,ai_non_ip,🤖 AIGC",
+        "RULE-SET,github_non_ip,Ⓜ️ GitHub",
         "RULE-SET,global_non_ip,🎯 节点选择",
         "RULE-SET,domestic_non_ip,DIRECT",
         "RULE-SET,direct_non_ip,DIRECT",
@@ -164,6 +165,15 @@ function overwriteRules (params) {
             behavior: "classical",
             url: "https://ruleset.skk.moe/Clash/non_ip/ai.txt",
             path: "./rule_set/sukkaw_ruleset/ai_non_ip.txt",
+            interval: 43200,
+            format: "text",
+            proxy: "🎯 节点选择"
+        },
+        github_non_ip: {
+            type: "http",
+            behavior: "classical",
+            url: "https://ruleset.skk.moe/Clash/non_ip/github.txt",
+            path: "./rule_set/sukkaw_ruleset/github_non_ip.txt",
             interval: 43200,
             format: "text",
             proxy: "🎯 节点选择"
@@ -487,6 +497,12 @@ function overwriteProxyGroups (params) {
             proxies: ["US - 自动选择", "US - 手动选择"],
             // "include-all": true,
             icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"
+        },
+        {
+            name: "Ⓜ️ GitHub",
+            type: "select",
+            proxies: ["🎯 节点选择", "DIRECT"],
+            icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/github.png"
         },
         {
             name: "🍎 苹果服务",

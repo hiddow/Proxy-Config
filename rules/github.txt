@@ -1,0 +1,21 @@
+#########################################
+# Sukka's Ruleset - GitHub Domains
+# Last Updated: 2025-07-28T08:09:50.376Z
+# Size: 10
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file contains domains of GitHub.
+#########################################
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,github.app
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.global
+DOMAIN-SUFFIX,github.com
+################## EOF ##################
